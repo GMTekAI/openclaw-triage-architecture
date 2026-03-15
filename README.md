@@ -5,6 +5,7 @@ This repository contains a design sketch for a multi-agent OpenClaw workflow tha
 ## Contents
 
 - `MULTI_AGENT_GITHUB_TRIAGE_ARCHITECTURE.md` - primary architecture sketch
+- `BUILD_PLAN.md` - concrete implementation plan and MVP milestones
 
 ## Scope
 
@@ -19,3 +20,12 @@ The design focuses on:
 ## Intended Use
 
 This is a planning repository, not an implementation yet. The goal is to capture the architecture clearly so the system can be built later in a focused way.
+
+## Next Step
+
+Start with the MVP in `BUILD_PLAN.md`:
+
+- one coordinator
+- one verifier worker per issue
+- local JSON artifacts
+- manual operator approval before any GitHub write
