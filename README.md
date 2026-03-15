@@ -6,6 +6,7 @@ This repository contains a design sketch for a multi-agent OpenClaw workflow tha
 
 - `MULTI_AGENT_GITHUB_TRIAGE_ARCHITECTURE.md` - primary architecture sketch
 - `BUILD_PLAN.md` - concrete implementation plan and MVP milestones
+- `DEPLOYMENT_PROFILE.md` - sanitized profile of the target OpenClaw environment
 
 ## Scope
 
@@ -29,3 +30,5 @@ Start with the MVP in `BUILD_PLAN.md`:
 - one verifier worker per issue
 - local JSON artifacts
 - manual operator approval before any GitHub write
+
+The deployment assumptions in `DEPLOYMENT_PROFILE.md` reflect the target environment this design was tailored for.
